@@ -1,4 +1,4 @@
-# What is variables?
+# What are variables?
   A variable is a container **storage area** to hold data.
 
 ---
@@ -6,7 +6,7 @@
 # Algorithms and Data Structures:
 
 ## What an algorithm is?
-  An algorithm is a method that performs a finite list of instructions that are well-defined.
+  An algorithm is a method that performs a finite list of well-defined instructions.
 
 > "Algorithms solve the problem".
 
@@ -25,7 +25,7 @@
 
 ## One of an Algorithm method **"Sorting"**:
 
- - Sorting is a fundamental task that needs to be performed as subroutine in many computer programs.
+ - Sorting is a fundamental task that needs to be performed as a subroutine in many computer programs.
  - Sorting also serves as an introductory problem.
 
 ---
