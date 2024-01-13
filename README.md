@@ -36,7 +36,7 @@ After cloning or coding this Repo, you can read the information provided about A
     - [Merge algorithms](https://github.com/WajdWael/Basic-Html-algorithms-Info/blob/main/notes/notes2.md#merge-algorithms)
  
 - `summary.md` Topics:
-    - [What are variables?](https://github.com/WajdWael/Basic-Html-algorithms-Info/blob/main/notes/summary.md#what-is-variables)
+    - [What are variables?](https://github.com/WajdWael/Basic-Html-algorithms-Info/blob/main/notes/summary.md#what-are-variables)
     - [Algorithms and Data Structures:](https://github.com/WajdWael/Basic-Html-algorithms-Info/blob/main/notes/summary.md#algorithms-and-data-structures)
 --
 
