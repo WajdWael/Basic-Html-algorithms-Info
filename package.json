@@ -1,0 +1,11 @@
+{
+  "name": "Basic-Html-algorithms-Info",
+  "version": "1.0.0",
+  "description": "Learn Html and CSS for beginner level, with files to learn Algorithms and data structure.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Wajd Wael",
+  "license": "ISC"
+}

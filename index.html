@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithm</title>
+
+    <!-- Css file -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Kumbh+Sans:wght@100;200;300;500;600;700;800&family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">     
+</head>
+<body>
+    <h3 class="main">Algorithm</h3>
+
+    <section class="s0">
+        <div class="nav">
+            <button type="button" class="btn btn-secondary" id="s1_btn">
+                <a class="link font-weight-bold" href="#Definitions">Definitions</a>
+            </button>
+
+            <button type="button" class="btn btn-secondary" id="s2_btn">
+                <a class="link font-weight-bold" href="#Part-1">Part-1</a>
+            </button>
+
+            <button type="button" class="btn btn-secondary" id="s3_btn"><a class="link font-weight-bold" href="#Part-2">Part-2</a></button>
+        </div>
+        <h1 class="category" id="Definitions">Definitions</h1>
+        <hr>
+    </section>
+
+    <section class="s1">
+        <div class="content-1">
+            <div class="boxes">
+                <div class="box main-box">
+                </div>
+            </div>
+        </div>
+    </section> 
+    
+    <section class="s2">
+        <hr>
+        <h1 class="category" id="Part-1">Part1</h1>
+        <div class="boxes">
+            <div class="box main-box">
+                <div class="box">
+                    <strong>
+                        What is an Algorithm in computer science?
+                    </strong>
+                    <p>
+                        In computer systems, an algorithm is basically an instance of logic written in software by software developers, to be effective for the intended "target" computer(s) to produce output from given (perhaps null) input.
+                        <br>
+                        Algorithm term is so essential in computer science, cause it's the way computers process data, Thus, an algorithm can be considered to be any sequence of operations that can be simulated by a Turing-complete.
+                    </p>
+                </div>
+                <div class="box">
+                    <strong>
+                        What is Algorithm design?
+                    </strong>
+                    <p>
+                        It refers to a method or a mathematical process for problem-solving and engineering algorithms. The design of algorithms is part of many solution theories of operation research, such as dynamic programming and divide-and-conquer. Techniques for designing and implementing algorithm designs are also called algorithm design patterns, with examples including the template method pattern and the decorator pattern.
+                    </p>
+                </div>
+                <div class="box">
+                    <strong>
+                        How does the algorithm express?
+                    </strong>
+                    <p>It can be expressed in many kinds of notation including:</p>
+                    <ol>
+                        <li>Natural languages (Arabic, English, Spain, German...)</li>
+                        <li>Pseudocode</li>
+                        <li>Flowcharts</li>
+                        <li>Programming languages (Js, Python, C, Java ...)</li>
+                        <li>Control-tables</li>
+                        <li>Darkon-charts</li>
+                    </ol>
+                </div>
+                <div class="box">
+                    <strong>What is big O notation?</strong>
+                    <p>
+                        Today we’ll look at algorithms for searching. To compare their efficiency, we’ll consider running time, or how long an algorithm takes to run given some size of input.
+                        <br>
+                        Computer scientists tend to describe running time with big O notation, which we can think of as “on the order of” something, as though we want to convey an idea of running time and not an exact number of milliseconds or steps.
+                        <br>
+                        In computer science, big O notation is used to classify algorithms according to how their run time or space requirements grow as the input size grows.
+                        <br>
+                        At all times the algorithm only needs to remember two values: the sum of all the elements so far (O), and its current position in the input list (N). Therefore, it is said to have a space requirement of O(n).
+                    </p>
+                    <h4>Notations:</h4>
+                    <ol>
+                        <li><p>Big O (O()) describes the upper bound of the complexity.</p></li>
+                        <li><p>Omega (Ω()) describes the lower bound of the complexity.</p></li>
+                        <li><p>Theta (Θ()) describes the exact bound of the complexity.</p></li>
+                        <li><p>Little O (o()) describes the upper bound excluding the exact bound.</p></li>
+                    </ol>
+                </div>
+                <div class="box">
+                    <strong>What is an Algorithmic analysis?</strong>
+                    <p>
+                        It is methods have been developed for the analysis of algorithms to obtain such quantitative answers (estimates); for example, an algorithm that adds up the elements of a list of n numbers would have a time requirement of O(n), using big O notation.
+                    </p>
+                    <strong>There are various ways to classify algorithms:</strong>
+                    <ol>
+                        <div class="one">
+                            <li>Recursion</li>
+                            <p>
+                                A recursive algorithm is one that invokes or in other words makes reference to itself repeatedly until a certain condition (aka termination condition) matches. long story short, Recursion is the ability for a function to call itself.
+                            </p>
+                        </div>
+                        <div class="tow">
+                            <li>Logical (Algorithm = logic + control)</li>
+                            <p>
+                                An algorithm may be viewed as a controlled logical deduction. The logic component expresses the axioms that may be used in the computation and the control component determines the way in which deduction is applied to the axioms. This is the basis for the logic programming paradigm. In pure logic programming languages, the control component is fixed and algorithms are specified by supplying only the logic component. The appeal of this approach is the elegant semantics: a change in the axioms produces a well-defined change in the algorithm.
+                            </p>
+                        </div>
+                        <div class="three">
+                            <strong>Serial, parallel, or distributed</strong>
+                            <p>
+                                An algorithm designed for such an environment is called a serial algorithm, as opposed to parallel algorithms or distributed algorithms.
+                            </p>
+                        </div>
+                    </ol>
+                </div>
+                <div class="four">
+                    <div class="box">
+                        <strong><i>Parallel algorithms</i></strong>
+                        <p>
+                            Take advantage of computer architectures where several processors can work on a problem at the same time.
+                        </p>
+                        <hr>
+                        <strong><i>Distributed algorithms</i></strong>
+                        <p>
+                            Utilize multiple machines connected with a computer network.
+                        </p>
+                        <hr>
+                        <strong>Both</strong>
+                        <p>
+                            Parallel or distributed algorithms divide the problem into more symmetrical or asymmetrical subproblems and collect the results back together. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s3">
+        <hr>
+        <h1 class="category" id="Part-2">PART3</h1>
+        <div class="boxes">
+            <div class="box main-box">
+                <h4>By design paradigm:</h4>
+                <strong><i>Search algorithm:</i></strong>
+                <p>
+                    Search algorithms work to retrieve information stored within some data structure, or calculated in the search space of a problem domain, with either discrete or continuous values.
+                    <br>
+                    Also it can be classified based on their mechanism of searching into three types of algorithms: linear, binary, and hashing;
+                </p>
+                <ol>
+                    <div class="box">
+                        <li><i>linear search</i></li>
+                        <p>
+                            In computer science, a linear search aka sequential search is a method for finding an element within a list. It sequentially checks each element of the list until a match is found or the whole list has been searched. In long story short A linear search sequentially checks each element of the list until it finds an element that matches the target value. If the algorithm reaches the end of the list, the search terminates unsuccessfully.
+                        </p>
+                    </div>
+
+                    <div class="box">
+                        <li><i>Binary search</i></li>
+                        <p>
+                            In computer science, binary search, aka half-interval search, logarithmic search, or binary chop, is a search algorithm that finds the position of a target value within a sorted array, Binary search is faster than linear search except for small arrays. However, the array must be sorted first to be able to apply binary search. However, binary search can be used to solve a wider range of problems, such as finding the next-smallest or next-largest element in the array relative to the target even if it is absent from the array.
+                            <br>
+                            Binary search works on sorted arrays. Binary search begins by comparing an element in the middle of the array with the target value. If the target value matches the element, its position in the array is returned. If the target value is less than the element, the search continues in the lower half of the array. If the target value is greater than the element, the search continues in the upper half of the array. By doing this, the algorithm eliminates the half in which the target value cannot lie in each iteration.
+                        </p>
+                    </div>
+                    
+                    <div class="box">
+                        <li><i>Hash table</i></li>
+                        <p>
+                            This forms the basics of what a hash function is. The hash function, however, takes it a step further, So essentially all hashing does is it uses a function to map data to a representative numeric or alphanumeric value. For the hash function, regardless of the size of the input, the output will always remain the same.
+                            <br>
+                            Hash tables utilize hashing to form a data structure, All that means is that, in a hash table, keys are mapped to unique values.
+                            <br>
+                            Hash tables are extremely fast, having a time complexity that is in the order of O(1).
+                        </p>
+                    </div>
+                </ol>
+
+                <div class="box">
+                    <strong>
+                        Merge algorithm
+                    </strong>
+                    <p>
+                        Merge algorithms are a family of algorithms that take multiple sorted lists as input and produce a single list as output, containing all the elements of the inputs lists in sorted order. These algorithms are used as subroutines in various sorting algorithms, most famously merge sort.                        
+                    </p>
+                    <strong>Merge sort conceptually, a merge sort works as follows</strong>
+                    <p>Divide the unsorted list into n sublists, each containing one element (a list of one element is considered sorted).
+                        Repeatedly merge sublists to produce new sorted sublists until there is only one sublist remaining. This will be the sorted list.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>
