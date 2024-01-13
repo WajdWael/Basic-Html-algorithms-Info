@@ -8,6 +8,36 @@ When I coded this app, it was in 2022. I began my learning journey with HTML and
 ## ⚙️ Repo Idea:
 After cloning or coding this Repo you can read the information provided about Algorithms and Data-Structures.
 
+
+- `Definitions.md` Topics:
+    - Algorithm
+    - Heuristic Approach
+    - Randomized Algorithm
+    - Turing-complete
+    - Pseudocode
+    - Programming language
+    - Dynamic programming
+    - Turing completeness
+    - Optimal-Algorithm & a Non-Optimal one
+
+
+- `notes1.md` Topics:
+    - What is an Algorithm in computer science?
+    - What is Algorithm design?
+    - How does the algorithm express?
+    - What is big O notation?
+    - What is an Algorithmic analysis?
+
+
+- `notes2.md` Topics:
+    - Search algorithm
+    - Linear search
+    - Binary search
+    - Hash table
+    - Merge algorithms
+
+--
+
 ---
 
 ## 💎 What to take away form this repo?
