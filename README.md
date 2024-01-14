@@ -5,6 +5,8 @@ When I coded this app, it was in 2022. I began my learning journey with HTML and
 
 > **Practice is essential for learning. 🪄**
 
+[Demo](https://wajdwael.github.io/Basic-Html-algorithms-Info/)
+
 ## ⚙️ Repo Idea:
 After cloning or coding this Repo, you can read the information provided about Algorithms and Data-Structures.
 
